@@ -1,0 +1,37 @@
+#RossiyaOnEarth {
+  width: 300px;
+	height: 300px;
+	background: url(http://res.cloudinary.com/dmuuruew8/image/upload/c_scale,w_4169/v1480365278/f7978188-060d-47e0-b6e1-335d06a52487_fbvzp6.png);
+	border-radius: 50%;
+	background-size: 610px;
+	box-shadow: inset 16px 0 40px 6px #142D70,
+		inset -3px 0 6px 2px rgba(20, 45, 122, 10);
+	animation-name: pseudorotate2D;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+
+
+@keyframes pseudorotate2D {
+  from { background-position-x: 150px; }
+  to { background-position-x: 760px; }
+}
+
+
+.Pseudo3DRotation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #142D70;
+  padding: 30px;
+}
+
+.Pseudo3DRotation p {
+  margin-top: 50px;
+  width: 75%;
+  text-align: center;
+  color: #FFFCF9;
+  font-size: 30px;
+}

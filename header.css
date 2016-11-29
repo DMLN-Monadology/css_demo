@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Damion', cursive;
+  font-size: 60px;
+  font-weight: lighter;
+  color: black;
+  text-align: center;
+  margin: 0px;
+  line-height: 200px;
+}
+
+header {
+  margin: 0px;
+  height: 200px;
+  background-color: #FFFCF9;
+}
+
+
+body {
+  margin: 0px;
+  background-color: #B1EDE8;
+  overflow-y: scroll;
+}

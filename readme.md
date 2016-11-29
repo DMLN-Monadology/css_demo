@@ -12,7 +12,7 @@ This will be a one-page website demonstrating all of the major CSS functionaliti
 
 The website users will be able to see the implemtation of the following CSS features:
 
-- [ ] 2 and 3-dimensional rotation w and w/o perspective.
+- [ ] 2 and 3-dimensional rotation.
 - [ ] Modals.
 - [ ] Flip cards.   
 - [ ] Boxes.
