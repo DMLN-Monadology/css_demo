@@ -62,7 +62,8 @@
   height: 116px;
   left: 10px;
   top: 10px;
-  border: 3px solid blue;
+  border: 3px solid #204D02;
+  border-radius: 3px;
 }
 
 .Carousel img:nth-child(1) { transform: rotateY(0deg)  translateZ( 288px ); }
