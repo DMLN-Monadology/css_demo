@@ -12,11 +12,13 @@ This will be a one-page website demonstrating all of the major CSS functionaliti
 
 The website users will be able to see the implemtation of the following CSS features:
 
-- [ ] 2 and 3-dimensional rotation.
+- [ ] 2D rotation
+- [ ] 3D rotation.
 - [ ] Modals.
 - [ ] Flip cards.   
 - [ ] Carousel.
-- [ ] 3d Bevel Emboss
+- [ ] TBD 
+
 
 
 ## Architecture and Technologies
