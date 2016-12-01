@@ -22,3 +22,7 @@ body {
   min-width: 840px;
   overflow-x: scroll;
 }
+
+.placeholder {
+  height: 600px;
+}
