@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>CSS & Rossiya</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
     <link href="./css-reset.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./header.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./pseudorotate3D.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./rotate2D.css" type="text/css" rel="stylesheet" type="text/css"/>
+    <link href="./heroescards.css" type="text/css" rel="stylesheet" type="text/css"/>
   </head>
 
   <body>
@@ -26,9 +28,9 @@
 
     <div class="Rotation2D">
       <p>Originally inspired by Japanese Daruma dolls, the Russian nesting
-        Matryoshka dolls attained internal fame by winning the bronze medal
+        Matryoshka dolls attained international fame by winning the bronze medal
         at the 1900 World Fair in Paris. It is now one of the most popular
-        souvenir in the world today. 
+        souvenir in the world today.
       </p>
       <img class="XRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:ff1919,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
       <img class="YRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:ff1919,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
@@ -36,6 +38,48 @@
 
     </div>
 
+    <div class="Heroes">
+      <h2>Click on a card to learn more about a Russian hero!</h2>
+      <h2>Can you name them before flipping?</h2>
+
+      <div class="FlipCards">
+        <img class="AlexanderNevsky" src="http://res.cloudinary.com/dmuuruew8/image/upload/v1480532477/alexander-nevsky-main-review_m4jpew.jpg">
+        <p class="NevskyDescript">
+          Alexander Nevsky (1221-1263 C.E.)
+
+          Repelling several invasions, Alexander resided as the Grand Prince of
+          Kiev during some of the most difficult times in Kievan Rus' history.
+          Modern generations are reminded of his legacy by the critically acclaimed
+          film by Sergei Eisenstein in 1938.
+
+        </p>
+        <div class="FlipCardsLeft">
+          <img class="PyotrVelikiy" src="http://res.cloudinary.com/dmuuruew8/image/upload/c_scale,w_797/v1480572365/Peter_der-Grosse_1838_sogiqu.jpg">
+          <p class="PeterDescript">
+          Peter I (1672-1725 C.E.)
+
+          Peter the Great led Russia to victory in the Great Northern War, securing
+          its place as the new dominant power in Northern Europe for centuries. His
+          legacies include the founding of St. Petersburg, the jewel of European Russia,
+          as well as Enlightenment reforms that modernised Russia.
+          </p>
+        </div>
+
+        <img class="YuriGagarin" src="http://res.cloudinary.com/dmuuruew8/image/upload/c_scale,w_360/v1480575777/artsfon.com-72015_e2nq28.jpg">
+        <p class="YuriDescript">
+          Yuri Gagarin (1934-1968 C.E.)
+
+          On April 12th 1961, Gagarin became the first human to journey into outer space
+          as the pilot of a Soviet Vostok spacecraft. For this feat, he was awarded the
+          title Hero of the Soviet Union. Yuri's Night on April 12th, the anniversary of
+          his 108 minutes space flight, is still celebrated worldwide to this day.
+        </p>
+
+        <script type="text/javascript" src="./flip.js"></script>
+
+      </div>
+
+    </div>
 
   </body>
 </html>

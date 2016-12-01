@@ -19,4 +19,6 @@ body {
   margin: 0px;
   background-color: #B1EDE8;
   overflow-y: scroll;
+  min-width: 840px;
+  overflow-x: scroll;
 }

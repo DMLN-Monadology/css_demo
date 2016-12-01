@@ -1,0 +1,109 @@
+.Heroes {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #FFFCF9;
+}
+
+.Heroes h2 {
+  color: #4169e1;
+}
+
+.FlipCards {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  perspective: 2000px;
+}
+
+.AlexanderNevsky {
+  z-index: 10;
+  border-radius: 5px;
+  padding: 5px;
+  width: 360px;
+  border: 10px;
+  background: rgb(181,189,200); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+  transition: transform 2s linear;
+  transform-origin: 400px;
+  transform-style: preserve-3d;
+}
+
+.FlipRight {
+  transform: rotateY(180deg);
+}
+
+.FlipLeft {
+  transform: rotateY(-180deg);
+}
+
+.NevskyDescript {
+  width: 360px;
+  position: absolute;
+}
+
+.FlipCardsLeft {
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  perspective: 1000px;
+  z-index: 11;
+}
+
+.PyotrVelikiy {
+  z-index: 12;
+  perspective: 5000px;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 340px;
+  border: 10px;
+  background: rgb(208,228,247); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(208,228,247,1) 0%, rgba(115,177,231,1) 24%, rgba(10,119,213,1) 50%, rgba(83,159,225,1) 79%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#539fe1',GradientType=0 ); /* IE6-9 */
+  transition: transform 2s linear;
+  transform-origin: -30px;
+  transform-style: preserve-3d;
+}
+
+.PeterDescript {
+  padding: 40px;
+  position: absolute;
+  z-index: 10;
+  color: #204D02;
+}
+
+.YuriGagarin {
+  margin-top: 30px;
+  z-index: 10;
+  border-radius: 5px;
+  padding: 5px;
+  width: 360px;
+  border: 10px;
+  background: rgb(255,168,76); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+  transition: transform 2s linear;
+  transform-origin: 400px;
+  transform-style: preserve-3d;
+}
+
+.YuriDescript {
+  width: 360px;
+  top: 850px;
+  font-size: 20px;
+  position: absolute;
+  color: orange;
+}
