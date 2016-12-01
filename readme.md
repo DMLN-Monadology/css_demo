@@ -15,7 +15,7 @@ The website users will be able to see the implemtation of the following CSS feat
 - [ ] 2 and 3-dimensional rotation.
 - [ ] Modals.
 - [ ] Flip cards.   
-- [ ] Boxes.
+- [ ] Carousel.
 - [ ] 3d Bevel Emboss
 
 
