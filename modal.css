@@ -39,7 +39,6 @@
 
 .OpenModal::before, .OpenModal::after {
   content: '';
-  z-index: 10;
   margin: -5%;
   box-shadow: inset 0 0 0 2px;
   animation: Orbit 8s linear infinite;
