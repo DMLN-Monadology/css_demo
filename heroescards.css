@@ -47,7 +47,7 @@
 .NevskyDescript {
   width: 360px;
   position: absolute;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .FlipCardsLeft {
@@ -103,7 +103,7 @@
 
 .YuriDescript {
   width: 360px;
-  top: 850px;
+  top: 780px;
   font-size: 20px;
   position: absolute;
   color: orange;
