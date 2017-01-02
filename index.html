@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <title>CSS & Rossiya</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./extras/jquery.min.1.7.js"></script>
+    <script type="text/javascript" src="./extras/jquery-ui-1.8.20.custom.min.js"></script>
+    <script type="text/javascript" src="./extras/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="./extras/modernizr.2.5.3.min.js"></script>
+    <script type="text/javascript" src="./lib/hash.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <link href="./css-reset.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./header.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./pseudorotate3D.css" type="text/css" rel="stylesheet" type="text/css"/>
@@ -88,7 +93,7 @@
       <div class="Nguyen">
         <div class="ModalContent">
           <img class="profilepic" src="http://res.cloudinary.com/dmuuruew8/image/upload/v1480583007/ProfilePic_wmhs34.jpg">
-          <p>Vietnam born, Yale graduate, lover of economics, political science,
+          <p>Born in Ho Chi Minh City in 1994, Yale graduate in 2016, lover of economics, political science,
             and philosophy. Definitely not a Russophile.
           </p>
           <button class="close">Close</button>
@@ -100,7 +105,7 @@
     </div>
 
     <div class="Gallery">
-      <h2>Russia through the Ages!</h2>
+      <h2>Russia through the Ages</h2>
       <div class="Container">
         <div class="Carousel">
           <img src="http://res.cloudinary.com/dmuuruew8/image/upload/v1480591347/D0_92_D0_B0_D1_80_D1_8F_D0_B3_D0_B8_f2gsay.jpg">
@@ -123,9 +128,42 @@
 
 
 
-    <div class="placeholder">
-      <p>More Content to Come</p>
+    <div id="canvas">
+      <h2>Interactive Photo Album</h2>
+      <h3>Drag Corners to flip through a photographic history of the Sovetsky Soyuz</h3>
+      <div id="book-zoom">
+        <div class="HistoryofUSSR">
+          <div class="hard"></div>
+          <div class="hard"></div>
+          <div class="hard p29"></div>
+          <div class="hard p30"></div>
+        </div>
+      </div>
+
+      <div class="turnjs-slider" id="slider-bar">
+        <div id="slider"></div>
+      </div>
+
+      <script type="text/javascript" src="./historyofussr.js"></script>
+
+
+
     </div>
 
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Rossiya  -->
