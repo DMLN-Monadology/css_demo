@@ -6,7 +6,7 @@ body{
 }
 
 #canvas{
-	min-width: 740px;
+	min-width: 1000px;
 	height: 100%;
 	background-image: url(../book/woodtable.jpg)
 }
@@ -37,8 +37,9 @@ body{
 	-ms-transition: -ms-transform 1s;
 	-o-transition: -o-transform 1s;
 	transition: transform 1s;
-	margin-left: 10%;
-	margin-right: 10%;
+	display: flex;
+	align-self: center;
+	justify-content: center;
 }
 
 .animated{
@@ -51,7 +52,7 @@ body{
 
 .HistoryofUSSR{
 	margin-top:20px;
-	min-width:740px;
+	min-width:900px;
 	height:600px;
 }
 

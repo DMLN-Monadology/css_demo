@@ -84,7 +84,7 @@
   padding: 20px;
   border: 8px solid white;
   width: 60%;
-  height: 400px;
+  height: 470px;
 }
 
 .ModalContent p {
@@ -131,4 +131,13 @@
 
 .Open {
   display: flex;
+}
+
+.ModalContent h4 {
+  font-size: 16px;
+  color: white;
+}
+
+.ModalContent a:visited {
+  color: white;
 }
