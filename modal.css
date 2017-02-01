@@ -1,7 +1,6 @@
 .Modal {
   height: 500px;
-  display: block;
-  position: relative;
+  display: flex;
   background-color: #142D70;
 }
 
@@ -91,6 +90,7 @@
   color: white;
   text-align: center;
   margin-bottom: 30px;
+  font-size: 22px;
 }
 
 .profilepic {
@@ -133,11 +133,16 @@
   display: flex;
 }
 
-.ModalContent h4 {
+.ModalFooter {
   font-size: 16px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.link:link{
   color: white;
 }
 
-.ModalContent a:visited {
+.link:visited {
   color: white;
 }

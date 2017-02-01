@@ -1,9 +1,9 @@
 .Heroes {
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  background-color: #FFFCF9;
+  background-color: #142D70;
 }
 
 .Heroes h2 {
@@ -37,6 +37,10 @@
   transform-style: preserve-3d;
 }
 
+.AlexanderNevsky:hover {
+  cursor: pointer;
+}
+
 .FlipRight {
   transform: rotateY(180deg);
 }
@@ -49,6 +53,7 @@
   width: 360px;
   position: absolute;
   font-size: 22px;
+  color: white;
 }
 
 .FlipCardsLeft {
@@ -78,11 +83,15 @@
   transform-style: preserve-3d;
 }
 
+.PyotrVelikiy:hover {
+  cursor: pointer;
+}
+
 .PeterDescript {
   padding: 40px;
   position: absolute;
   z-index: 10;
-  color: #204D02;
+  color: green;
   font-size: 21px;
 }
 
@@ -101,6 +110,10 @@
   transition: transform 2s linear;
   transform-origin: 400px;
   transform-style: preserve-3d;
+}
+
+.YuriGagarin:hover {
+  cursor: pointer;
 }
 
 .YuriDescript {

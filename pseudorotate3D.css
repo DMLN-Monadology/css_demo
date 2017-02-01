@@ -21,11 +21,13 @@
 
 
 .Pseudo3DRotation {
-  display: flex;
+  /*display: flex;*/
+  display: none;
   flex-direction: column;
   align-items: center;
   background-color: #142D70;
   padding: 30px;
+  margin-top: 80px;
 }
 
 .Pseudo3DRotation p {

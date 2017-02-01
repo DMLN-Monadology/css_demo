@@ -1,0 +1,75 @@
+.NavigationMenu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #142D70;
+  padding: 20px;
+  width: 200px;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+
+.Content {
+  display: none;
+}
+
+.NavigationMenu li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.Title {
+  margin: 0px;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.Left {
+  position: relative;
+  left: -40px;
+  opacity: 0;
+}
+
+.Right {
+  position: relative;
+  right: -40px;
+  opacity: 0;
+}
+
+.NavigationMenu li:hover {
+  cursor: pointer;
+}
+
+.NavigationMenu li:hover > .Left {
+  opacity: 1;
+  left: -10px;
+  transition: left 0.3s linear;
+}
+
+.NavigationMenu li:hover > .Right {
+  opacity: 1;
+  right: -10px;
+  transition: right 0.3s linear;
+}
+
+.Current > .Title {
+  font-weight: normal;
+}
+
+.Current > .Right {
+  opacity: 1;
+  right: -10px;
+}
+
+.Current > .Left {
+  opacity: 1;
+  left: -10px;
+}

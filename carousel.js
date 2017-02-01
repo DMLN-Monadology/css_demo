@@ -1,8 +1,10 @@
 var Carousel = $(".Carousel"),
     deg  = 0;
 
-$(".Next").on("click", { direction: "right" }, rotate);
-$(".Previous").on("click", { direction: "left" }, rotate);
+$(() => {
+  $(".Next").on("click", { direction: "right" }, rotate);
+  $(".Previous").on("click", { direction: "left" }, rotate);
+});
 
 function rotate(e){
   if(e.data.direction=="right"){

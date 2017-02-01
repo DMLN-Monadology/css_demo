@@ -9,7 +9,9 @@
     <script type="text/javascript" src="./extras/jquery.mousewheel.min.js"></script>
     <script type="text/javascript" src="./extras/modernizr.2.5.3.min.js"></script>
     <script type="text/javascript" src="./lib/hash.js"></script>
+    <script type="text/javascript" src="./navbar.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="./navbar.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./css-reset.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./header.css" type="text/css" rel="stylesheet" type="text/css"/>
     <link href="./pseudorotate3D.css" type="text/css" rel="stylesheet" type="text/css"/>
@@ -25,7 +27,40 @@
       <h1>CSS & Rossiya</h1>
     </header>
 
-    <div class="Pseudo3DRotation">
+    <ul class="NavigationMenu">
+      <li>
+        <p class="Left">[</p>
+        <p class="Title 2DRotation">2D Rotations</p>
+        <p class="Right">]</p>
+      </li>
+      <li>
+        <p class="Left">[</p>
+        <p class="Title 3DRotation">3D Rotation</p>
+        <p class="Right">]</p>
+      </li>
+      <li>
+        <p class="Left">[</p>
+        <p class="Title CarouselBlock">Carousel</p>
+        <p class="Right">]</p>
+      </li>
+      <li>
+        <p class="Left">[</p>
+        <p class="Title ModalBlock Current">Modal</p>
+        <p class="Right">]</p>
+      </li>
+      <li>
+        <p class="Left">[</p>
+        <p class="Title CardsBlock">Flippable Cards</p>
+        <p class="Right">]</p>
+      </li>
+      <li>
+        <p class="Left">[</p>
+        <p class="Title BookBlock">Turnable Book</p>
+        <p class="Right">]</p>
+      </li>
+    </ul>
+
+    <div class="Pseudo3DRotation Content">
       <div id="RossiyaOnEarth"></div>
       <p>With over 1/8th of the world's land mass at 17 million square kilometers,
         Russia spans across 9 time zones and is the largest country
@@ -33,21 +68,19 @@
       </p>
     </div>
 
-    <div class="Rotation2D">
+    <div class="Rotation2D Content">
       <p>Originally inspired by Japanese Daruma dolls, the Russian nesting
         Matryoshka dolls attained international fame by winning the bronze medal
         at the 1900 World Fair in Paris. It is now one of the most popular
         souvenir in the world today.
       </p>
-      <img class="XRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:ff1919,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
-      <img class="YRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:ff1919,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
-      <img class="ZRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:ff1919,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
+      <img class="XRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:142d70,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
+      <img class="YRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:142d70,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
+      <img class="ZRotate2D img2D" src="http://res.cloudinary.com/dmuuruew8/image/upload/b_rgb:142d70,c_scale,w_200/v1480446904/matryoshka_doll_brunette_oe93gn.png">
 
     </div>
 
-    <div class="Heroes">
-      <h2>Click on a card to learn more about a Russian hero!</h2>
-      <h2>Can you name them before flipping?</h2>
+    <div class="Heroes Content">
 
       <div class="FlipCards">
         <img class="AlexanderNevsky" src="http://res.cloudinary.com/dmuuruew8/image/upload/v1480532477/alexander-nevsky-main-review_m4jpew.jpg">
@@ -87,7 +120,7 @@
       </div>
     </div>
 
-    <div class="Modal">
+    <div class="Modal Content">
       <button class="OpenModal">About the Developer</button>
 
       <div class="Nguyen">
@@ -97,7 +130,7 @@
             and philosophy. Definitely not a Russophile.
           </p>
 
-          <h4>Duc.m.nguyen@yale.edu | <a href="https://github.com/DMLN-Monadology" target="_blank">Github</a> | 229-938-4235 </h4>
+          <div class="ModalFooter">duc.m.nguyen@yale.edu | <a class="link" href="https://github.com/DMLN-Monadology" target="_blank">Github</a> | <a class="link" href="https://www.linkedin.com/in/duc-nguyen-428402130" target="_blank">LinkedIn</a> | 229-938-4235 </div>
           <button class="close">Close</button>
         </div>
       </div>
@@ -106,8 +139,8 @@
 
     </div>
 
-    <div class="Gallery">
-      <h2>Russia through the Ages</h2>
+    <div class="Gallery Content">
+      <h2>Russia Through the Ages</h2>
       <div class="Container">
         <div class="Carousel">
           <img src="http://res.cloudinary.com/dmuuruew8/image/upload/v1480591347/D0_92_D0_B0_D1_80_D1_8F_D0_B3_D0_B8_f2gsay.jpg">
@@ -130,9 +163,10 @@
 
 
 
-    <div id="canvas">
-      <h2>Interactive Photo Album</h2>
-      <h3>Drag Corners to flip through a photographic history of the Sovetsky Soyuz</h3>
+    <div id="canvas" class="Content">
+      <div class="Note">
+        <p class="asterisk">*</p><p>draggable corners!</p>
+      </div>
       <div id="book-zoom">
         <div class="HistoryofUSSR">
           <div class="hard"></div>

@@ -1,3 +1,5 @@
+
+
 $('.AlexanderNevsky').click( () => {
   $('.AlexanderNevsky').toggleClass('FlipRight');
 });

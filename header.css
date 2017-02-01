@@ -2,27 +2,24 @@ h1 {
   font-family: 'Damion', cursive;
   font-size: 60px;
   font-weight: lighter;
-  color: black;
+  color: white;
   text-align: center;
   margin: 0px;
   line-height: 200px;
+  background-color: #142D70;
 }
 
 header {
   margin: 0px;
   height: 200px;
-  background-color: #FFFCF9;
+  background-color background-color: #142D70;
 }
 
 
 body {
   margin: 0px;
-  background-color: #B1EDE8;
+  background-color: #142D70;
   overflow-y: scroll;
   min-width: 840px;
   overflow-x: scroll;
-}
-
-.placeholder {
-  height: 600px;
 }
