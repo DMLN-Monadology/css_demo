@@ -209,4 +209,29 @@ function loadApp() {
 
 	$('#canvas').css({visibility: 'visible'});
 }
-  
+
+.OpenModal, .OpenModal::before, .OpenModal::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+}
+
+.OpenModal::before, .OpenModal::after {
+  content: '';
+  margin: -5%;
+  box-shadow: inset 0 0 0 2px;
+  animation: Orbit 8s linear infinite;
+}
+
+.OpenModal::before {
+  animation-delay: -4s;
+}
+
+@keyframes Orbit {
+  0%, 100% { clip: rect(0px, 440px, 2px, 0px); }
+  25%      { clip: rect(0px, 2px, 150px, 0px);}
+  50%      { clip: rect(110px, 440px, 150px, 0px); }
+  75%      { clip: rect(0px, 440px, 150px, 445px); }
+}

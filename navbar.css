@@ -5,7 +5,8 @@
   background-color: #142D70;
   padding: 20px;
   width: 200px;
-  height: 650px;
+  min-width: 200px;
+  height: 800px;
   align-items: center;
   justify-content: center;
   float: left;

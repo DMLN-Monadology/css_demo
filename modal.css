@@ -2,12 +2,13 @@
   height: 500px;
   display: flex;
   background-color: #142D70;
+  min-width: 1000px;
+  max-width: 1000px;
 }
 
 
 .OpenModal {
    color: #69ca62;
-   margin: auto;
    height: 100px;
    width: 400px;
    border-top: 1px solid #0011ff;
@@ -36,6 +37,13 @@
   right: 0;
 }
 
+.OpenModal {
+  top: 350px;
+  bottom: 0px;
+  left: 550px;
+  right: 0px;
+}
+
 .OpenModal::before, .OpenModal::after {
   content: '';
   margin: -5%;
@@ -53,6 +61,16 @@
   50%      { clip: rect(110px, 440px, 150px, 0px); }
   75%      { clip: rect(0px, 440px, 150px, 445px); }
 }
+
+/*clip: rect(<top>, <right>, <bottom>, <left>);*/
+
+
+/*@keyframes Orbit {
+  0%, 100% { clip: rect(0px, 440px, 2px, 0px); }
+  25%      { clip: rect(0px, 2px, 150px, 0px);}
+  50%      { clip: rect(110px, 440px, 150px, 0px); }
+  75%      { clip: rect(0px, 440px, 150px, 445px); }
+}*/
 
 
 .OpenModal:hover {
