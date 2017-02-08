@@ -102,6 +102,7 @@
   border: 8px solid white;
   width: 60%;
   height: 470px;
+  min-width: 600px;
 }
 
 .ModalContent p {
@@ -162,5 +163,9 @@
 }
 
 .link:visited {
+  color: white;
+}
+
+.ModalContent li {
   color: white;
 }
